@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FCF6F5FF;
+  color:white;
+}
+
+.header{
+  margin-top: -34px;
+  background-color: #2BAE66FF;
+}
+.header h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.header textarea{
+  width:60%;
+  height:30px;
+  border: none;
+}
+.header label{
+  margin:10px;
+  margin-left: 10%;
+  font-size: 30px;
+}
+.header button{
+  margin-top: 5%;;
+  position: relative;
+  top:-2px;
+  height:30px;
+  width:80%;
+  margin-left: 10%;
+  margin-bottom:5%;
+  border-radius: 10px;
+  border:none;
+  color:#006B38FF;
+}
+.header button:hover{
+    color:white;
+    background-color: #006B38FF;
+}
+.tasks{
+  color:#2BAE66FF;
+}
+.tasks h1{
+  text-align: center;
+}
+.both{
+  margin-top:10px;
+  display: flex;
+}
+.both .tsk{
+  flex-grow: 1;
+  text-align: center;
+  padding-left:40px;
+  font-size: x-large;
+}
+.both .btn{
+  position: relative;
+  left:-20px;
+}
+.both .btn button{
+  border:none;
+  border-radius: 5px;
+  background-color:  #2BAE66FF;
+  color:white;
+}
+.del{
+  margin-top: 6px;
+}
